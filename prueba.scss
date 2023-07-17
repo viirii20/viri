@@ -1,0 +1,19 @@
+$primary: #ff08a0;
+$secondary: #8f183f;
+
+$custom-colors: (
+  "ventanilla-100": #b20256,
+  "ventanilla-200": #9d004b,
+  "ventanilla-300": #82003e,
+  "ventanilla-400": #670933,
+  "ventanilla-500": #4f0c22,
+  "footer-left": #e5e0da,
+  "footer-right": #dfdace
+);
+
+$theme-colors: (
+  "primary":    $primary,
+  "secondary":  $secondary
+);
+
+$theme-colors: map-merge($theme-colors, $custom-colors);
