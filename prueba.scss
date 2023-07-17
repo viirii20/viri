@@ -19,5 +19,5 @@ $theme-colors: (
 $theme-colors: map-merge($theme-colors, $custom-colors);
 
 .prueba2{
-background-color: pink;
+background-color: pink !important;
 }
