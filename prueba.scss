@@ -1,4 +1,4 @@
-$primary: #ff08a0;
+$primary: #711332;
 $secondary: #8f183f;
 
 $custom-colors: (
@@ -17,3 +17,14 @@ $theme-colors: (
 );
 
 $theme-colors: map-merge($theme-colors, $custom-colors);
+
+@import "../node_modules/bootstrap/scss/bootstrap";
+
+@import '/node_modules/@swimlane/ngx-datatable/index.css';
+@import '/node_modules/@swimlane/ngx-datatable/assets/icons.css';
+
+@import '/src/assets/css/app.css';
+@import '/src/assets/css/ngx-datatable.css';
+@import '/src/assets/css/headersecondary-components.css';
+@import '/src/assets/css/toastr.css';
+@import 'src/assets/css/animations-hover.css'
