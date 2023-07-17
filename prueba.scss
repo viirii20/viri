@@ -1,4 +1,4 @@
-$primary: #ff3cd5;
+$primary: pink;
 $secondary: #8f183f; 
 
 $custom-colors: (
@@ -18,6 +18,3 @@ $theme-colors: (
 
 $theme-colors: map-merge($theme-colors, $custom-colors);
 
-.prueba2{
-background-color: pink !important;
-}
